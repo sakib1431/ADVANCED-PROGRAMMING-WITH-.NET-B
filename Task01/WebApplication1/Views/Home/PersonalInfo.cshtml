@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "PersonalInfo";
+}
+
+<h2 style="text-align:center">PersonalInfo</h2>
+<style>
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        text-align:center;
+     
+    }
+
+        .info label {
+            width: 150px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        .info input {
+            flex: 1;
+            border: none;
+            outline: none; 
+        }
+</style>
+<div class="info">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" value="Md. Omar Faruk Sakib">
+</div>
+<div class="info">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="sakibkst143@gmial.com">
+</div>
+<div class="info">
+    <label for="education">Education:</label>
+    <input type="text" id="education" name="education" value="Bsc.Cse">
+</div>
+<div class="info">
+    <label for="religion">Religion:</label>
+    <input type="text" id="religion" name="religion" value="Islam">
+</div>
+<div class="info">
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" value="Lahini,Kushtia">
+</div>
